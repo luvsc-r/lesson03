@@ -1,0 +1,61 @@
+b'<!doctype html>\n<html>\n<head>\n
+    <title>Example Domain</title>\n\n    <meta charset="utf-8" />\n    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />\n    <meta name="viewport" content="width=device-width, initial-scale=1" />\n    <style type="text/css">\n    body {\n        background-color: #f0f0f2;\n        margin: 0;\n        padding: 0;\n        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;\n        \n    }\n    div {\n        width: 600px;\n        margin: 5em auto;\n        padding: 2em;\n        background-color: #fdfdff;\n        border-radius: 0.5em;\n        box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);\n    }\n    a:link, a:visited {\n        color: #38488f;\n        text-decoration: none;\n    }\n    @media (max-width: 700px) {\n        div {\n            margin: 0 auto;\n            width: auto;\n        }\n    }\n    </style>    \n</head>\n\n<body>\n<div>\n    <h1>Example Domain</h1>\n    <p>This domain is for use in illustrative examples in documents. You may use this\n    domain in literature without prior coordination or asking for permission.</p>\n    <p><a href="https://www.iana.org/domains/example">More information...</a></p>\n</div>\n</body>\n</html>\n'
+# from tkinter import Tk, Label, Button
+#
+# root = Tk()
+# root.title("Заголовок окна")
+# root.geometry("300x200")
+#
+# label = Label(root, text="Нажми кнопку", font=("Arial", 14))
+# label.pack(padx=10, pady=10)
+#
+# def on_click():
+#     label.config(text="Текст изменен!")
+#
+# button = Button(root, text="Изменить текст", command=on_click)
+# button.pack()
+#
+# root.mainloop()
+#
+
+# from colorama import Fore, Style
+# print(Fore.RED + "Этот текст красный" + Style.RESET_ALL)
+
+# import pyfiglet
+# print(pyfiglet.figlet_format("Hello!"))
+
+
+import  requests
+import json
+
+# request = requests.get("http://example.com")
+#
+# print("Статус-код: ", request.status_code)
+# print(request.content)
+# with open("respond.html", 'w') as f:
+#     f.write(str(request.content))
+#
+# url = "https://api.sampleapis.com/coffee/hot"
+# response = requests.get(url)
+#
+# if response.status_code == 200:
+#     data = response.json()
+#     print("Первый кофе: ", data[0]["title"])
+#     print("Количество напитков: ", len(data))
+
+# import requests
+# import json
+#
+# url = "https://api.sampleapis.com/codingresources/codingResources"
+# response = requests.get(url)
+#
+# if response.status_code == 200:
+#     data = response.json()
+#
+#     with open("coding_resource.json", "w", encoding="utf-8") as file:
+#         json.dump(data, file, indent=4, ensure_ascii=False)
+#
+#     print("Данные сохранены в coding_resource.json")
+#
+# else:
+#     print(f"Ошибка{response.status_code}. Неудалось получить данные")
